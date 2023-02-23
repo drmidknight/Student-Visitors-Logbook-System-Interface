@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Module | admin</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css'>
+    <link rel="stylesheet" href="report.css">
+
+</head>
+<body>
+<section class="dashboard_page">
+    <div class="row side_bar_nd_main_area">
+
+        <div class="col-md-10 main_area">
+            <header>
+             <h2>Report Module</h2>  
+            </header>
+    
+            <div class="content">
+            <div class="container-c">
+      
+                
+   
+<div class="row">
+    <div class="col-md-4">
+         
+       
+    </div>
+    
+    <div class="col-md-4">
+        <div class="row">
+        <div class="col-md-6">
+                <label for="fromDate">From</label>
+                <input type="date" name="fromDate" id="fromDate" class="form-control form-group">
+            </div>
+            <div class="col-md-5">
+                <label for="ToDate">To</label>
+                <input type="date" name="ToDate" id="ToDate" class="form-control form-group">
+            </div>
+        </div>
+       <div class="row">
+           <div class="col-md-4">
+           <input onclick="genereteAttendanceReport()" class="form-control btn btn-success form-group" type="button" value="Generate">
+           </div>
+
+           <div class="col-md-4">
+           <input onclick="printAttendanceReport()" class="form-control btn btn-success form-group" type="button" value="Print">
+           </div>
+           <div class="col-md-2"></div>
+           <div class="col-md-2"></div>
+           <div class="col-md-2"></div>
+           <div class="col-md-2"></div>
+           <div class="col-md-2"></div>
+           <div class="col-md-2"></div>           
+        </div>
+    </div>
+
+ </div>
+     
+    </form>
+
+    <div class="tabe-container">
+        <h3 class="heading">Today's Attendance</h3>
+        <table class="table">
+           <thead>
+             <tr>
+                <th>Full Name</th>
+                <th>Location</th>
+                <th>Phone-number</th>
+                <th>Device</th>
+                <th>Department</th>
+                <th>Purpose</th>
+                <th>Time-In</th>
+                <th>Time-Out</th>
+                <th>Edit</th>
+             </tr>
+           </thead>
+           <tbody>
+              <tr>
+                <td data-label="Full Name">Kingley Richard</td>
+                <td data-label="Location">Kasoa</td>
+                <td data-label="Phone-number">0234455668</td>
+                <td data-label="Device">Lenovo</td>
+                <td data-label="Department">Consultancy</td>
+                <td data-label="Purpose">Visit Mr Nii Okai</td>
+                <td data-label="Time-In">9:45am</td>
+                <td data-label="Time-Out">4:40pm</td>
+                <td data-label="Remove"><a href="#" class="btn">Remove</a></td>
+              </tr>
+              <tr>
+                <td data-label="Full Name">Kingley Richard</td>
+                <td data-label="Location">Kasoa</td>
+                <td data-label="Phone-number">0234455668</td>
+                <td data-label="Device">Lenovo</td>
+                <td data-label="Department">Consultancy</td>
+                <td data-label="Purpose">Visit Mr Nii Okai</td>
+                <td data-label="Time-In">9:45am</td>
+                <td data-label="Time-Out">4:40pm</td>
+                <td data-label="Remove"><a href="#" class="btn">Remove</a></td>
+              </tr>
+              <tr>
+                <td data-label="Full Name">Kingley Richard</td>
+                <td data-label="Location">Kasoa</td>
+                <td data-label="Phone-number">0234455668</td>
+                <td data-label="Device">Lenovo</td>
+                <td data-label="Department">Consultancy</td>
+                <td data-label="Purpose">Visit Mr Nii Okai</td>
+                <td data-label="Time-In">9:45am</td>
+                <td data-label="Time-Out">4:40pm</td>
+                <td data-label="Remove"><a href="#" class="btn">Remove</a></td>
+              </tr>
+              <tr>
+                <td data-label="Full Name">Kingley Richard</td>
+                <td data-label="Location">Kasoa</td>
+                <td data-label="Phone-number">0234455668</td>
+                <td data-label="Device">Lenovo</td>
+                <td data-label="Department">Consultancy</td>
+                <td data-label="Purpose">Visit Mr Nii Okai</td>
+                <td data-label="Time-In">9:45am</td>
+                <td data-label="Time-Out">4:40pm</td>
+                <td data-label="Remove"><a href="#" class="btn">Remove</a></td>
+              </tr>
+              <tr>
+                <td data-label="Full Name">Kingley Richard</td>
+                <td data-label="Location">Kasoa</td>
+                <td data-label="Phone-number">0234455668</td>
+                <td data-label="Device">Lenovo</td>
+                <td data-label="Department">Consultancy</td>
+                <td data-label="Purpose">Visit Mr Nii Okai</td>
+                <td data-label="Time-In">9:45am</td>
+                <td data-label="Time-Out">4:40pm</td>
+                <td data-label="Remove"><a href="#" class="btn">Remove</a></td>
+              </tr>
+              <tr>
+                <td data-label="Full Name">Kingley Richard</td>
+                <td data-label="Location">Kasoa</td>
+                <td data-label="Phone-number">0234455668</td>
+                <td data-label="Device">Lenovo</td>
+                <td data-label="Department">Consultancy</td>
+                <td data-label="Purpose">Visit Mr Nii Okai</td>
+                <td data-label="Time-In">9:45am</td>
+                <td data-label="Time-Out">4:40pm</td>
+                <td data-label="Remove"><a href="#" class="btn">Remove</a></td>
+              </tr>
+              <tr>
+                <td data-label="Full Name">Kingley Richard</td>
+                <td data-label="Location">Kasoa</td>
+                <td data-label="Phone-number">0234455668</td>
+                <td data-label="Device">Lenovo</td>
+                <td data-label="Department">Consultancy</td>
+                <td data-label="Purpose">Visit Mr Nii Okai</td>
+                <td data-label="Time-In">9:45am</td>
+                <td data-label="Time-Out">4:40pm</td>
+                <td data-label="Remove"><a href="#" class="btn">Remove</a></td>
+              </tr>
+              <tr>
+                <td data-label="Full Name">Kingley Richard</td>
+                <td data-label="Location">Kasoa</td>
+                <td data-label="Phone-number">0234455668</td>
+                <td data-label="Device">Lenovo</td>
+                <td data-label="Department">Consultancy</td>
+                <td data-label="Purpose">Visit Mr Nii Okai</td>
+                <td data-label="Time-In">9:45am</td>
+                <td data-label="Time-Out">4:40pm</td>
+                <td data-label="Remove"><a href="#" class="btn">Remove</a></td>
+              </tr>
+              <tr>
+                <td data-label="Full Name">Kingley Richard</td>
+                <td data-label="Location">Kasoa</td>
+                <td data-label="Phone-number">0234455668</td>
+                <td data-label="Device">Lenovo</td>
+                <td data-label="Department">Consultancy</td>
+                <td data-label="Purpose">Visit Mr Nii Okai</td>
+                <td data-label="Time-In">9:45am</td>
+                <td data-label="Time-Out">4:40pm</td>
+                <td data-label="Remove"><a href="#" class="btn">Remove</a></td>
+              </tr>
+              <tr>
+                <td data-label="Full Name">Kingley Richard</td>
+                <td data-label="Location">Kasoa</td>
+                <td data-label="Phone-number">0234455668</td>
+                <td data-label="Device">Lenovo</td>
+                <td data-label="Department">Consultancy</td>
+                <td data-label="Purpose">Visit Mr Nii Okai</td>
+                <td data-label="Time-In">9:45am</td>
+                <td data-label="Time-Out">4:40pm</td>
+                <td data-label="Remove"><a href="#" class="btn">Remove</a></td>
+              </tr>
+            
+           </tbody>
+        </table>
+    </div>
+          </div>
+        </div>
+      </div>
+    </div>     
+        </section>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  body {
+    background: #fff;
+    overflow-x: hidden !important;
+    position: relative;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  input, select {
+    padding: 0px 8px !important;
+  }
+  
+  .container-c {
+    width: 90%;
+    margin: 0 auto !important;
+  }
+  
+  .col-md-3, .col-md-5 {
+    padding-right: 15px !important;
+  }
+  
+  .form-group {
+    margin-bottom: 15px !important;
+  }
+  
+  .form-control {
+    padding-right: 15px !important;
+  }
+  
+  table {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 9px;
+  }
+  
+  td {
+    font-weight: bold;
+  }
+  
+  thead {
+    background-color: #536074;
+    color: #ffffff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #cf8275;
+    color: #fff !important;
+  }
+  
+  tr:nth-child(odd):first-child(1) {
+    background-color: #536074;
+    color: white;
+  }
